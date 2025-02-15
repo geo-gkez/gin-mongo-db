@@ -51,7 +51,7 @@ Response: {
 "surname": "Doe",
 "email": "john.doe@example.com"
 }
-        
+
 Get All Members
 URL: /members
 Method: GET
@@ -65,3 +65,17 @@ Response:
 }
 ]
 ```
+
+## Use Docker compose
+
+Build the docker image:
+
+ ```sh 
+   docker build -t gin-members .
+ ```
+
+Run the docker compose:
+
+ ```sh
+   docker-compose up
+ ```
