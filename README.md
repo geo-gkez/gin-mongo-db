@@ -13,8 +13,8 @@ This project demonstrates basic implementations of the Gin Go framework with Mon
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/gin-members.git
-   cd gin-members
+   git clone https://github.com/geo-gkez/gin-mongo-db.git
+   cd gin-mongo-db
     ```
 
 2. Install the dependencies:
