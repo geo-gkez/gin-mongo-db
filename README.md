@@ -26,3 +26,42 @@ This project demonstrates basic implementations of the Gin Go framework with Mon
 
 ## Running the Application
 
+1. Start the MongoDB server.
+2. Run the application:
+    ```sh
+    go run main.go
+    ```
+3. The application will be available at http://localhost:8080.
+
+## API Endpoints
+
+- Create a Member
+
+```json
+URL: /members
+Method: POST
+Request Body: {
+"name": "John",
+"surname": "Doe",
+"email": "john.doe@example.com"
+}
+Response: {
+"id": "60c72b2f9b1e8a5f6d8b4567",
+"name": "John",
+"surname": "Doe",
+"email": "john.doe@example.com"
+}
+        
+Get All Members
+URL: /members
+Method: GET
+Response:
+[
+{
+"id": "60c72b2f9b1e8a5f6d8b4567",
+"name": "John",
+"surname": "Doe",
+"email": "john.doe@example.com"
+}
+]
+```

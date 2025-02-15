@@ -1,12 +1,12 @@
 ###
-POST http://localhost:8092/members
+POST http://localhost:8080/members
 Content-Type: application/json
 
 {
-  "name": "d",
-  "surname": "d",
-  "email": "daa@gmail.com"
+  "name": "John",
+  "surname": "Doe",
+  "email": "john.doe@example.com"
 }
 
 ###
-GET http://localhost:8092/members
+GET http://localhost:8080/members
